@@ -2,6 +2,7 @@ import React, { use, useState } from 'react';
 import Banner from './Banner';
 import TicketList from './TicketList';
 import TaskStatus from './TaskStatus';
+import { toast, ToastContainer } from 'react-toastify';
 
 const MainContent = ({ ticketsPromise }) => {
 
@@ -15,11 +16,12 @@ const MainContent = ({ ticketsPromise }) => {
         const exists = inProgress.find(t => t.id === ticket.id);
 
         if (exists) {
-            alert("Already in progress!");
+            toast.error("Already in progress!");
             return;
         }
 
         setInProgress(prev => [...prev, ticket]);
+        toast.success("Added to Task Status!");
     };
 
     const handleComplete = (ticket) => {
@@ -27,7 +29,7 @@ const MainContent = ({ ticketsPromise }) => {
         setInProgress(prev => prev.filter(t => t.id !== ticket.id));
         setResolved(prev => [...prev, ticket]);
         setTickets(prev => prev.filter(t => t.id !== ticket.id));
-
+        toast.success("Ticket marked as resolved!");
     };
 
     return (
@@ -46,6 +48,7 @@ const MainContent = ({ ticketsPromise }) => {
                     onComplete={handleComplete}
                 ></TaskStatus>
             </div>
+            <ToastContainer />
         </div>
     );
 };
