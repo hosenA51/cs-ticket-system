@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issue - Cannot Access Dashboard",
+    "description": "Customer is unable to log in after recent password reset attempt.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-01"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted payment using Visa ending 5678 but transaction failed.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-03"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Invoice download button is not responding in billing section.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": 1004,
+    "title": "Incorrect Billing Address Displayed",
+    "description": "Old billing address still showing after profile update.",
+    "customer": "Emily Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-07"
+  },
+  {
+    "id": 1005,
+    "title": "App Crash on Android Device",
+    "description": "Mobile application crashes immediately after opening on Android 13.",
+    "customer": "David Wilson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-09"
+  },
+  {
+    "id": 1006,
+    "title": "Refund Not Processed",
+    "description": "Customer requested refund two weeks ago but has not received confirmation.",
+    "customer": "Sophia Taylor",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": 1007,
+    "title": "Two-Factor Authentication Code Not Received",
+    "description": "Customer is not receiving OTP on registered mobile number.",
+    "customer": "James Anderson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-12"
+  },
+  {
+    "id": 1008,
+    "title": "Profile Picture Upload Failed",
+    "description": "Uploading profile image shows error 'Upload Failed'.",
+    "customer": "Olivia Martinez",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": 1009,
+    "title": "Subscription Plan Not Updated",
+    "description": "Customer upgraded to Premium plan but dashboard still shows Basic plan.",
+    "customer": "Daniel Harris",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-15"
+  },
+  {
+    "id": 1010,
+    "title": "Email Notifications Not Working",
+    "description": "System is not sending order confirmation emails to customers.",
+    "customer": "Emma Thompson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-17"
+  },
+  {
+    "id": 1011,
+    "title": "Search Feature Returning Incorrect Results",
+    "description": "Product search results are unrelated to entered keywords.",
+    "customer": "William Moore",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2026-02-18"
+  },
+  {
+    "id": 1012,
+    "title": "Password Reset Link Expired",
+    "description": "Password reset link sent via email expires immediately after clicking.",
+    "customer": "Ava Clark",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-20"
+  },
+  {
+    "id": 1013,
+    "title": "Dashboard Analytics Not Loading",
+    "description": "Analytics graphs are stuck on loading state for more than 5 minutes.",
+    "customer": "Benjamin Lewis",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-22"
+  },
+  {
+    "id": 1014,
+    "title": "Language Translation Not Updating",
+    "description": "Switching language from English to Spanish does not update UI text.",
+    "customer": "Isabella Walker",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-24"
+  },
+  {
+    "id": 1015,
+    "title": "Order History Missing",
+    "description": "Customer cannot view previous purchase history in account section.",
+    "customer": "Lucas Hall",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2026-02-26"
+  }
+]
